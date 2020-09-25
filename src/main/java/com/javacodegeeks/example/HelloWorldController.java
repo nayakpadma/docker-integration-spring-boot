@@ -8,6 +8,7 @@ public class HelloWorldController {
 
 	@GetMapping("/hello")
 	public String sayHello() {
+		System.out.println("hello");
 		return "Dcoker image created and runing ...";
 	}
 }
